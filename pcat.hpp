@@ -36,3 +36,7 @@ typedef struct nodeTypeTag {
 		nonterminalNodeType nt;
 	};
 } nodeType;
+
+int line_num;
+int col_num;
+char line_buffer[3000];

@@ -1,0 +1,11 @@
+(* mytest-error-02:               *)
+(*   test declare error   *)
+(*                       *)
+PROGRAM IS
+    VAR i, j : INTEGER := 1; 
+    VAR x : INTEGER := 2;
+    VAR y := 3 :=4;
+BEGIN 
+    WRITE ("i = ", i, ", j = ", j);
+    WRITE ("x = ", x, ", y = ", y);
+END;

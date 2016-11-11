@@ -1,0 +1,19 @@
+(* Some expression tests. *)
+PROGRAM IS
+    VAR A, B, C, D := 0;
+BEGIN 
+    A := -A -A;
+    A := -A --A;
+    A := +A-+A;
+    A := +A++A;
+    A := -A  *-A;
+    A := A+B*C;
+    A := A + B * C;
+    A := A * B + C;
+    A := A + B * -C;
+    A := (A + B) * -C;
+    A := A + B * --C;
+    A := A + B * -C * D;
+END;
+
+
